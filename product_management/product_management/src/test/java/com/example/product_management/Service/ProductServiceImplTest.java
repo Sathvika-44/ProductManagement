@@ -4,14 +4,11 @@ package com.example.product_management.Service;
 
 import com.example.product_management.Model.Product;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
@@ -22,7 +19,7 @@ class ProductServiceImplTest {
 
     @Autowired
     private  ProductServiceImpl productServiceImpl;
-    private Product product;
+    Product product;
 
 
     @BeforeEach
